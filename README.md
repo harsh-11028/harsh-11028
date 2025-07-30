@@ -5,37 +5,6 @@
 - 📫 How to reach me: harsh.student04@gmail.com<br>
 
 
-import { Threads } from "@/components/ui/threads";
-
-const ThreadsDemo = () => {
-  return (
-    <div className="flex w-full min-h-screen justify-center items-center bg-neutral-900 p-4">
-      <div 
-        style={{ 
-          width: '100%', 
-          maxWidth: '800px',
-          height: '600px', 
-          position: 'relative', 
-          overflow: 'hidden',
-          borderRadius: '8px',
-          boxShadow: '0 10px 25px -5px rgba(0,0,0,0.3), 0 8px 10px -6px rgba(0,0,0,0.2)'
-        }}
-      >
-        <Threads
-          className="w-full h-full" 
-          amplitude={0.7}
-          distance={0.05}
-          enableMouseInteraction={true}
-          color={[1.0, 1.0, 1.0]}
-        />
-      </div>
-    </div>
-  );
-};
-
-export { ThreadsDemo };
-
-
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/harsh._1.1.0) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/harsh-gupta-245bb4346) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:harsh.student04@gmail.com) 
 
